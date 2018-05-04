@@ -20,7 +20,7 @@
 
 - (BOOL)pointInside:(CGPoint)point withEvent:(UIEvent *)event {
     NSLog(@"%@:%@",[self class],NSStringFromSelector(_cmd));
-    return YES;
+    return [super pointInside:point withEvent:event];
 }
 
 @end
