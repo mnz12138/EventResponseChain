@@ -7,8 +7,15 @@
 //
 
 #import "ViewController.h"
+#import "MyView.h"
+#import "RedButton.h"
+#import "BlueButton.h"
 
 @interface ViewController ()
+
+@property (weak, nonatomic) IBOutlet MyView *myView;
+@property (weak, nonatomic) IBOutlet RedButton *redBtn;
+@property (weak, nonatomic) IBOutlet BlueButton *blueBtn;
 
 @end
 
@@ -16,9 +23,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.myView.redBtn = self.redBtn;
+    self.myView.blueBtn = self.blueBtn;
 }
 
+- (IBAction)blueBtnAction {
+    NSLog(@"blueBtnAction");
+}
+- (IBAction)redBtnAction {
+    NSLog(@"redBtnAction");
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

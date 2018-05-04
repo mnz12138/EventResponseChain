@@ -13,6 +13,9 @@
 		18E7EFBB209C3DC200A6CF23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E7EFBA209C3DC200A6CF23 /* Assets.xcassets */; };
 		18E7EFBE209C3DC200A6CF23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E7EFBC209C3DC200A6CF23 /* LaunchScreen.storyboard */; };
 		18E7EFC1209C3DC200A6CF23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7EFC0209C3DC200A6CF23 /* main.m */; };
+		18E7EFC9209C40D200A6CF23 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7EFC8209C40D200A6CF23 /* MyView.m */; };
+		18E7EFCC209C40F400A6CF23 /* RedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7EFCB209C40F400A6CF23 /* RedButton.m */; };
+		18E7EFCF209C40FC00A6CF23 /* BlueButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7EFCE209C40FC00A6CF23 /* BlueButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		18E7EFBD209C3DC200A6CF23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18E7EFBF209C3DC200A6CF23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18E7EFC0209C3DC200A6CF23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18E7EFC7209C40D200A6CF23 /* MyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		18E7EFC8209C40D200A6CF23 /* MyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+		18E7EFCA209C40F400A6CF23 /* RedButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedButton.h; sourceTree = "<group>"; };
+		18E7EFCB209C40F400A6CF23 /* RedButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedButton.m; sourceTree = "<group>"; };
+		18E7EFCD209C40FC00A6CF23 /* BlueButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlueButton.h; sourceTree = "<group>"; };
+		18E7EFCE209C40FC00A6CF23 /* BlueButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlueButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +71,12 @@
 				18E7EFB2209C3DC200A6CF23 /* AppDelegate.m */,
 				18E7EFB4209C3DC200A6CF23 /* ViewController.h */,
 				18E7EFB5209C3DC200A6CF23 /* ViewController.m */,
+				18E7EFC7209C40D200A6CF23 /* MyView.h */,
+				18E7EFC8209C40D200A6CF23 /* MyView.m */,
+				18E7EFCA209C40F400A6CF23 /* RedButton.h */,
+				18E7EFCB209C40F400A6CF23 /* RedButton.m */,
+				18E7EFCD209C40FC00A6CF23 /* BlueButton.h */,
+				18E7EFCE209C40FC00A6CF23 /* BlueButton.m */,
 				18E7EFB7209C3DC200A6CF23 /* Main.storyboard */,
 				18E7EFBA209C3DC200A6CF23 /* Assets.xcassets */,
 				18E7EFBC209C3DC200A6CF23 /* LaunchScreen.storyboard */,
@@ -142,9 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E7EFC9209C40D200A6CF23 /* MyView.m in Sources */,
 				18E7EFB6209C3DC200A6CF23 /* ViewController.m in Sources */,
+				18E7EFCC209C40F400A6CF23 /* RedButton.m in Sources */,
 				18E7EFC1209C3DC200A6CF23 /* main.m in Sources */,
 				18E7EFB3209C3DC200A6CF23 /* AppDelegate.m in Sources */,
+				18E7EFCF209C40FC00A6CF23 /* BlueButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
